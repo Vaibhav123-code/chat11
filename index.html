@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <h1 style="padding: 10px;">Hello! choose me</h1>
+    <form>
+        <div class="radio-container">
+          <label>
+            <input type="radio" name="radio" value="chat" checked>
+            <img src="/practice/R.jpg">
+            Chat
+          </label>
+          <label>
+            <input type="radio" name="radio" value="call">
+            <img src="/practice/R (2).png">
+            Call
+          </label>
+          <label>
+            <input type="radio" name="radio" value="no">
+            <img src="/practice/R.png">
+            No
+          </label>
+        </div>
+        <div class="time-container">
+          <label for="time-input">Time:</label>
+          <input type="time" id="time-input" name="time" placeholder="Enter time">
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="alert"></div>
+      <script src="chat.js"></script>
+</body>
+</html>
+  
+    
